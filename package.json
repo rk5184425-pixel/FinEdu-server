@@ -1,0 +1,42 @@
+{
+  "name": "unified-server",
+  "version": "1.0.0",
+  "description": "Unified server combining cyber cells API, phishing detection, document hash management, and authentication",
+  "main": "unified-server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node unified-server.js",
+    "dev": "nodemon unified-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cyber-security",
+    "phishing-detection",
+    "document-management",
+    "authentication",
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "Unified Security Platform Team",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.4",
+    "node-fetch": "^3.3.2",
+    "nodemailer": "^6.9.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3"
+  }
+}
